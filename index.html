@@ -12,21 +12,21 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo"
             >Web<span class="header-span-logo">Studio</span></a
           >
-          <ul>
+          <ul class="header-nav-links">
             <li>
               <a href="./index.html" class="header-nav-link">Studio</a>
             </li>
@@ -40,7 +40,7 @@
         </nav>
         <address class="header-address">
           <ul>
-            <li>
+            <li class="header-address-links">
               <a href="mailto:info@devstudio.com" class="header-address-link"
                 >info@devstudio.com</a
               >
@@ -64,7 +64,7 @@
       <section class="features">
         <div class="container features-container">
           <h2 class="visually-hidden">Our Core Principles</h2>
-          <ul>
+          <ul class="features-cards">
             <li class="features-card">
               <h3 class="features-card-title">Strategy</h3>
               <p class="features-text">
@@ -99,15 +99,17 @@
       <section class="team">
         <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
-          <ul>
+          <ul class="team-cards">
             <li class="team-card">
               <img
                 src="./images/our-team-img-01.jpg"
                 alt="Mark Guerrero"
                 width="360"
               />
-              <h3 class="team-card-title">Mark Guerrero</h3>
-              <p class="team-card-text">Product Designer</p>
+              <div class="team-card-container">
+                <h3 class="team-card-title">Mark Guerrero</h3>
+                <p class="team-card-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -115,8 +117,10 @@
                 alt="Tom Ford"
                 width="360"
               />
-              <h3 class="team-card-title">Tom Ford</h3>
-              <p class="team-card-text">Frontend Developer</p>
+              <div class="team-card-container">
+                <h3 class="team-card-title">Tom Ford</h3>
+                <p class="team-card-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -124,8 +128,10 @@
                 alt="Camila Garcia"
                 width="360"
               />
-              <h3 class="team-card-title">Camila Garcia</h3>
-              <p class="team-card-text">Marketing</p>
+              <div class="team-card-container">
+                <h3 class="team-card-title">Camila Garcia</h3>
+                <p class="team-card-text">Marketing</p>
+              </div>
             </li>
             <li class="team-card">
               <img
@@ -133,8 +139,10 @@
                 alt="Daniel Wilson"
                 width="360"
               />
-              <h3 class="team-card-title">Daniel Wilson</h3>
-              <p class="team-card-text">UI Designer</p>
+              <div class="team-card-container">
+                <h3 class="team-card-title">Daniel Wilson</h3>
+                <p class="team-card-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -142,15 +150,17 @@
       <section class="portfolio">
         <div class="container portfolio-container">
           <h2 class="portfolio-title">Our Portfolio</h2>
-          <ul>
+          <ul class="portfolio-cards">
             <li class="portfolio-card">
               <img
                 src="./images/our-potfolio-img-01.jpg"
                 alt="BankApp UI"
                 width="360"
               />
-              <h3 class="portfolio-card-title">Banking App</h3>
-              <p class="portfolio-card-text">App</p>
+              <div class="portfolio-card-container">
+                <h3 class="portfolio-card-title">Banking App</h3>
+                <p class="portfolio-card-text">App</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -158,8 +168,10 @@
                 alt="QR code scan"
                 width="360"
               />
-              <h3 class="portfolio-card-title">Cashless Payment</h3>
-              <p class="portfolio-card-text">Marketing</p>
+              <div class="portfolio-card-container">
+                <h3 class="portfolio-card-title">Cashless Payment</h3>
+                <p class="portfolio-card-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -167,8 +179,10 @@
                 alt="Tech screens"
                 width="360"
               />
-              <h3 class="portfolio-card-title">Meditation App</h3>
-              <p class="portfolio-card-text">App</p>
+              <div class="portfolio-card-container">
+                <h3 class="portfolio-card-title">Meditation App</h3>
+                <p class="portfolio-card-text">App</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -176,8 +190,10 @@
                 alt="Car interior with smartphone navigation"
                 width="360"
               />
-              <h3 class="portfolio-card-title">Taxi Service</h3>
-              <p class="portfolio-card-text">Marketing</p>
+              <div class="portfolio-card-container">
+                <h3 class="portfolio-card-title">Taxi Service</h3>
+                <p class="portfolio-card-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -185,8 +201,10 @@
                 alt="Futuristic moon lock screen"
                 width="360"
               />
-              <h3 class="portfolio-card-title">Screen Illustrations</h3>
-              <p class="portfolio-card-text">Design</p>
+              <div class="portfolio-card-container">
+                <h3 class="portfolio-card-title">Screen Illustrations</h3>
+                <p class="portfolio-card-text">Design</p>
+              </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -194,8 +212,10 @@
                 alt="Girl with a phone"
                 width="360"
               />
-              <h3 class="portfolio-card-title">Online Courses</h3>
-              <p class="portfolio-card-text">Marketing</p>
+              <div class="portfolio-card-container">
+                <h3 class="portfolio-card-title">Online Courses</h3>
+                <p class="portfolio-card-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
