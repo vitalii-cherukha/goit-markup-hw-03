@@ -47,12 +47,10 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
