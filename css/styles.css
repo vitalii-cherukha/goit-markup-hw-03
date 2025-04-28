@@ -41,6 +41,7 @@ h2 {
     max-width: 1158px;
     padding: 0 15px; 
     margin: 0 auto;
+    width: 100%;
 }
 
 .header-container {
@@ -79,6 +80,7 @@ h2 {
 }
 
 .header-nav-link {
+    display: inline-block;
     font-weight: 500;
     letter-spacing: 0.02em;
     padding-top: 24px;
@@ -259,6 +261,11 @@ h2 {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 
+}
+
+.team-card-img {
+    max-width: 100%;
+    width: 100%;
 }
 
 .team-card-container {
